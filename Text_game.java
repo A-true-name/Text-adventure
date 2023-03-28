@@ -2,32 +2,41 @@
 /**
  * Write a description of class Text_game here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Hamish Kaufman)
+ * @version (28/03/2023)
  */
+//Imports
+import java.util.Scanner; //To be able to use scanners.
+
 public class Text_game
 {
     // instance variables - replace the example below with your own
     private int x;
+    /** System.out.print("West")
+     *  System.out.print("North")
+     *  System.out.print("South")
+     *  System.out.print("East")
+     *  System.out.print("Down")
+     *  System.out.print("Up")
+     */ 
 
-    /**
-     * Constructor for objects of class Text_game
-     */
     public Text_game()
     {
-        // initialise instance variables
-        x = 0;
+        String goal,Instructions;//Strings
+        goal= "Your goal is to collect 3 items so you can leave the building"; //The goal of the game
+        Instructions = "The controlls are West,North,South,East,Down,Up,Look/examine room";
+        Scanner look = new Scanner(System.in);
+        System.out.println("Controlls to the game are ");
+        
+        goal= "Your goal is to collect 3 items so you can leave the building"; //The goal of the game
+        System.out.print("Your goal is to"+goal); //Prints out the goal string and the coded text within this line in the brackets.
+        int[] rooms = new int[8];//
+        
+        
+        
+        
+
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
+
 }
