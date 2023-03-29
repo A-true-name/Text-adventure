@@ -26,17 +26,18 @@ public class Text_game
         Instructions = "The controlls are West,North,South,East,Down,Up,Look/examine room";
         boolean look;
         look = false;
-        
         //Instructions = "The controlls are West,North,South,East,Down,Up,Look/examine room";
+        String rooms []= {"Hall","ruins","Office","Deep dark","Roof","Purple flame"};
         Scanner looking = new Scanner(System.in);
         System.out.println("Controlls to the game are West,North,South,East,Down,Up");
-        int North []= {0,0,0,0,0};
-        int West []= {0,0,0,0,0};
-        int East []= {0,0,0,0,0};
-        int South []= {0,0,0,0,0};
-        int Up []= {0,0,0,0,0};
-        int Down []= {0,0,0,0,0};
-        //goal= "Your goal is to collect 3 items so you can leave the building"; //The goal of the game
+        System.out.println(rooms);
+        int North []= {0,0,0,0,0,0};
+        int West []= {0,0,0,0,0,0};
+        int East []= {0,0,0,0,0,0};
+        int South []= {0,0,0,0,0,0};
+        int Up []= {0,0,0,0,0,0};
+        int Down []= {0,0,0,0,0,0};
+
         System.out.print(goal); //Prints out the goal string.
         int[] room = new int[8];//Array for rooms
         room[0]=0;
