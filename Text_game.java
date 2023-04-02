@@ -49,12 +49,11 @@ public class Text_game
         room[6]=6;
         room[7]=7;
         
-        if (look = true){// Hmmm 
-            
-            System.out.println("look is true");// For checking if it is working
-        
-        
-        
+
+        while (look = true){// Hmmm 
+            //System.out.println("look is true");// For checking if it is working
+
+
         
         }
     }
