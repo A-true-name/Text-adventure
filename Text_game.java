@@ -11,13 +11,6 @@ import java.util.Scanner; //To be able to use scanners.
 public class Text_game
 {
     //private String[] rooms  
-    /** Starting the game.
-     *  Have fun.
-     *  
-     *  
-     *  
-     *  
-     */ 
 
     public Text_game()
     {
@@ -26,7 +19,7 @@ public class Text_game
         Instructions = "The controlls are West,North,South,East,Down,Up,Look/examine room";
         boolean look;
         look = false;
-        //Instructions = "The controlls are West,North,South,East,Down,Up,Look/examine room";
+
         String rooms []= {"Hall","ruins","Office","Deep dark","Roof","Purple flame"};
         Scanner looking = new Scanner(System.in);
         System.out.println("Controlls to the game are West,North,South,East,Down,Up");
@@ -48,13 +41,13 @@ public class Text_game
         room[5]=5;
         room[6]=6;
         room[7]=7;
-        
 
+        
         while (look = true){// Hmmm 
             //System.out.println("look is true");// For checking if it is working
-
 
         
         }
     }
+
 }
